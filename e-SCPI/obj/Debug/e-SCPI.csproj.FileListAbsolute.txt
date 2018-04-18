@@ -1,0 +1,17 @@
+C:\Users\ACHRAF\source\repos\e-SCPI\e-SCPI\bin\Debug\e-SCPI.exe.config
+C:\Users\ACHRAF\source\repos\e-SCPI\e-SCPI\bin\Debug\e-SCPI.exe
+C:\Users\ACHRAF\source\repos\e-SCPI\e-SCPI\bin\Debug\e-SCPI.pdb
+C:\Users\ACHRAF\source\repos\e-SCPI\e-SCPI\bin\Debug\Antlr3.Runtime.dll
+C:\Users\ACHRAF\source\repos\e-SCPI\e-SCPI\bin\Debug\Iesi.Collections.dll
+C:\Users\ACHRAF\source\repos\e-SCPI\e-SCPI\bin\Debug\NHibernate.dll
+C:\Users\ACHRAF\source\repos\e-SCPI\e-SCPI\bin\Debug\Remotion.Linq.dll
+C:\Users\ACHRAF\source\repos\e-SCPI\e-SCPI\bin\Debug\Remotion.Linq.EagerFetching.dll
+C:\Users\ACHRAF\source\repos\e-SCPI\e-SCPI\bin\Debug\Antlr3.Runtime.xml
+C:\Users\ACHRAF\source\repos\e-SCPI\e-SCPI\bin\Debug\Iesi.Collections.xml
+C:\Users\ACHRAF\source\repos\e-SCPI\e-SCPI\bin\Debug\NHibernate.xml
+C:\Users\ACHRAF\source\repos\e-SCPI\e-SCPI\bin\Debug\Remotion.Linq.xml
+C:\Users\ACHRAF\source\repos\e-SCPI\e-SCPI\bin\Debug\Remotion.Linq.EagerFetching.xml
+C:\Users\ACHRAF\source\repos\e-SCPI\e-SCPI\obj\Debug\e-SCPI.csprojResolveAssemblyReference.cache
+C:\Users\ACHRAF\source\repos\e-SCPI\e-SCPI\obj\Debug\e-SCPI.csproj.CoreCompileInputs.cache
+C:\Users\ACHRAF\source\repos\e-SCPI\e-SCPI\obj\Debug\e-SCPI.exe
+C:\Users\ACHRAF\source\repos\e-SCPI\e-SCPI\obj\Debug\e-SCPI.pdb

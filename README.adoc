@@ -1,0 +1,3 @@
+
+
+Ce projet, extrait d’une demande réelle, consiste à mettre en place une application professionnelle qui pourrait servir à n’importe quelle société de gestion d’une SCPI.

@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping xmlns = "urn:nhibernate-mapping-2.2"
+   assembly = "e-SCPI" namespace = "model">
+
+  <class name = "SCPI" table="SCPI">
+    <id name = "ID">
+      <generator class="increment"/>
+    </id>
+
+    <property name = "Capital" column="capital"/>
+    <property name = "Nom" column="nom"/>
+    <property name = "DateCreation" column="date_creation"/>
+    <property name = "FraisGestion" column="frais"/>
+    <list name = "Biens" table = "`BIEN_IMMOBILIER`" cascade="all" fetch = "join">
+      <key column = "SCPI_ID"/>
+      <index column="Position_SCPI"/>
+      <one-to-many class = "BienImmobilier"/>
+    </list>
+    <list name = "Parts" table = "`PART`" cascade="all" fetch = "join">
+      <key column = "SCPI_ID"/>
+      <index column="Position_SCPI"/>
+      <one-to-many class = "Part"/>
+    </list>
+  </class>
+
+</hibernate-mapping>

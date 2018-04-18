@@ -1,0 +1,15 @@
+﻿<?xml version = "1.0" encoding = "utf-8" ?> 
+
+<hibernate-mapping xmlns = "urn:nhibernate-mapping-2.2" 
+   assembly = "e-SCPI" namespace = "model">
+
+   <class name = "Employee" table="EMPLOYEE"> 
+      <id name = "ID">
+        <generator class = "native"/> 
+      </id> 
+		
+      <property name = "Email" column="login"/> 
+      <property name = "MotDePasse" column="passwd"/> 
+   </class> 
+   
+</hibernate-mapping>

@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping xmlns = "urn:nhibernate-mapping-2.2"
+   assembly = "e-SCPI" namespace = "model">
+
+  <class name = "BienImmobilier" table="BIEN_IMMOBILIER">
+    <id name = "ID">
+      <generator class="increment"/>
+    </id>
+
+    
+    <property name = "NumCadastre" column="cadastre"/>
+    <property name = "Adresse" column="adresse"/>
+    <property name = "CoutAcquisition" column="cout"/>
+    <property name = "Image" column="images"/>
+    <property name = "ChargesTrimestr" column="charges"/>
+    <property name = "LoyerTrimestr" column="loyer"/>
+    <property name = "Type" column="type"/>
+  
+  </class>
+
+</hibernate-mapping>

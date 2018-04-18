@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping xmlns = "urn:nhibernate-mapping-2.2"
+   assembly = "e-SCPI" namespace = "model">
+
+  <class name = "Souscripteur" table="SOUSCRIPTEUR">
+    <id name = "ID">
+      <generator class="increment"/>
+    </id>
+
+
+    <property name = "CNI" column="cni"/>
+    <property name = "Nom" column="nom"/>
+    <property name = "Prenom" column="prenom"/>
+    <property name = "DateNaissance" column="date_naissance"/>
+    <list name = "Parts" table = "`PART`"  cascade="all" fetch = "join">
+      <key column = "SOUSCRIPTEUR_ID"/>
+      <index column="Position_SOUSCRIPTEUR"/>
+      <one-to-many class = "Part"/>
+    </list>
+  </class>
+
+</hibernate-mapping>
